@@ -35,3 +35,4 @@ class EditProfileForm(FlaskForm):
     about_me = TextAreaField('About me', validators=[Length(min=0, max=100)])
     submit = SubmitField('Submit')
 
+
